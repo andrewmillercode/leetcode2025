@@ -6,3 +6,4 @@ class Solution:
 
 ```
 
+Find frequency for each unique number, then find top K most frequent based on the count
