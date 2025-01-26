@@ -1,6 +1,8 @@
 # Dynamic Arrays / Lists
 
-Examples:
+A dynamic array is an array which automatically resizes when adding elements into it. When an element is added and the array is full, the size of the array doubles in size to accomodate new elements. In this case, the time complexity of inserting elements is o(n), but in other cases it is o(1).
+
+## Examples:
 
 Python: List
 
@@ -11,9 +13,11 @@ C++ : Vector
 Go : Slice
 
 
-A dynamic array is an array which automatically resizes when adding elements into it. When an element is added and the array is full, the size of the array doubles in size to accomodate new elements. In this case, the time complexity of inserting elements is o(n), but in other cases it is o(1).
 
-Time Complexities:
+
+<img src='https://cdn-images-1.medium.com/max/960/1*9s7_mGUIzA_JcOOw-zQh9Q.png'/>
+
+## Time Complexities:
 
 Add new value: O(1) (Amortized)
 
