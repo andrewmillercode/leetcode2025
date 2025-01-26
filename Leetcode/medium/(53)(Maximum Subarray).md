@@ -13,3 +13,6 @@ class Solution:
         return res 
 ```
 Solved using [Kadane's Algorithm](/Data%20Algorithms/Kadane's%20Algorithm.md)
+
+Time Complexity: O(N)
+Space Complexity: O(1)
