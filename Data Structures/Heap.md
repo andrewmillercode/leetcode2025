@@ -34,7 +34,8 @@ Access min / max : O(1)
 
 ## Implementation
 
-By default, the heapq library in Python creates a min-heap with heapify.
+
+By default, the [heapq library](https://docs.python.org/3/library/heapq.html) in Python creates a min-heap with heapify.
 
 To use a max heap instead of a min heap w/heapify, simplify invert the values going into the heap. Instead of pushing 5 into the heap, you would push -5, and vice versa.
 
